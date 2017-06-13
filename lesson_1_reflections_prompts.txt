@@ -1,0 +1,78 @@
+How did viewing a diff between two versions of a file
+help you see the bug that was introduced?
+
+Viewing the difference between two versions helped me, because rather than
+going through all the code I only had to focus on the different parts of
+the two versions. It also helped me understand the changes made to the code
+and how this affect the code in general. 
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+If I have different versions I can see the evolution of the file/code
+I'm looking at, this is valuable to know many things about it
+like why was it created in the first place? or What is the core
+functionality of the function, how many people have worked on this?
+
+Besides being useful to debug code.
+
+What do you think are the pros and cons of manually choosing
+when to create a commit, like you do in Git,
+vs having versions automatically saved, like Google Docs does?
+
+The pros of mannualy commiting are:
+1. You get one commit per change so it's easier to understand
+2. If you haven't done anything significant it won't get commited
+3. You can determine whether to commit or not
+
+The cons are:
+1. You may have to think what you are going to change, and keep in mind
+that in some point you have to commit what you are doing which can affect
+flow
+2. You may forget to commit and your change won't be updated.
+
+
+Why do you think some version control systems, like Git allow saving
+multiple files in one commit, while others treat each file separately?
+
+I believe is allowed because when coding, a change to a file can have a significant
+impact on another file, so files are interelated as we need all files for our purposes.
+
+So we need a version control system that takes into account the need to keep track of
+the changes on files and their connections to another filest are .
+
+On the other hand other control systems handle usually single files
+that do not interact with another files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+I can enter the command git log, to see the changes a file has gone through, and then
+depending on which one I'm interested see the git diff of the commit compared to the
+previous one. If I wanna know how was the file before the commit I can look at the
+negative lines and the rest of the lines to see how was it before the changes.
+
+Or I can compare the commit with a really old version of the file and see most relevant changes
+to the file.
+
+How might using version control make you more confident to make changes that could break something?
+
+Now I know, each change is registered in a commit, so I'll be able to debug, easily and correct
+the mistake I've done. I will try to create unit tests and other strategies to not introduce bugs
+but I definitely will not be afraid to do so.
+
+Now that you have your workspace setup, what do you want to try using Git for?
+
+I don't have it setup. :(
+
+Concepts:
+HEAD = current commit
+detached HEAD state = you have move from the current commit
+git checkout = let's the programmer change the files back temporarily to a previous commit.
+(let's you change the file to a previous version temporarily)
+
+
+commands of git:
+git clone <repository url>: clones the repository at the current folder
+git diff oldercommit newercommit <difference between commits>
+git log <log of all commits>

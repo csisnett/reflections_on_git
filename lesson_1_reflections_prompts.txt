@@ -63,16 +63,29 @@ but I definitely will not be afraid to do so.
 
 Now that you have your workspace setup, what do you want to try using Git for?
 
-I don't have it setup. :(
+I want to use it for my current projects. I will be useful to keep a log of everything.
 
 Concepts:
 HEAD = current commit
-detached HEAD state = you have move from the current commit
+detached HEAD state = you have moved from the current commit
 git checkout = let's the programmer change the files back temporarily to a previous commit.
 (let's you change the file to a previous version temporarily)
+branch = it's a new version of the repository that it's independent from the others.
 
 
 commands of git:
 git clone <repository url>: clones the repository at the current folder
 git diff oldercommit newercommit <difference between commits>
 git log <log of all commits>
+git add <filename> : adds filename to the staging area
+git reset <filename>: removes filename from the staging area. 
+git diff (without parameters): shows the difference between the staging area and the working directory.
+git diff --staged: shows the difference in files between the staging area and the last commit.
+git reset --hard: clears all changes in the staging area and the working directory.(caution with this one)
+git branch: shows all branches of the repository
+git branch <name>: creates a branch with the name <name>.
+git checkout -- <file>: discard changes in working directory
+git merge <firstbranch> <secondbranch>: merges these two branches. (WARNING: remember to have checked out one of the branches before merging, if you have a third branch checked out you will merge three branches instead of two.)
+git show <id of commit>: shows the difference between this commit and its parent
+git branch -d <branch name>: deletes the label <branch name>(doesn't delete any commits)
+

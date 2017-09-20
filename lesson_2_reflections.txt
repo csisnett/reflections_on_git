@@ -5,3 +5,35 @@ when we initialize it we create the .git folder. We need to do this in order to 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 I think it provides a space for commiting several files that are interelated, and somehow it should give the user more flexibility.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can put in the staging area all the files related to a single logical change andthen commit them together.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches help when working with different versions of a repository. Also to experiment with things that hasn't being proven to work. 
+
+
+How do the diagrams help you visualize the branch structure?
+
+They help me seeing how is the relationship between commits and branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+the result of mergin two branches is taking whatever they had in common, delete whatever was deleted from a common commit and add whatever each branch has that is unique to the branch. We say both branches are the parents of the new merged branch because the new one comes from the other two.
+
+If there is a conflict while merging:
+
+1. go to the file fix the conflict.
+2. Save it.
+3. check git status
+4. git add <file> : adds file to the staging area
+5. check git status
+6. git commit (concludes the merge)
+
+What are the pros and cons of Git's automatic merging vs always doing merges manually?
+
+The cons are that we don't know if git's is going to make a good call always.
+
+The pros is that is much easier for the programmer to merge than to compare each file line by line and then decides what stays or not.

@@ -88,4 +88,7 @@ git checkout -- <file>: discard changes in working directory
 git merge <firstbranch> <secondbranch>: merges these two branches. (WARNING: remember to have checked out one of the branches before merging, if you have a third branch checked out you will merge three branches instead of two.)
 git show <id of commit>: shows the difference between this commit and its parent
 git branch -d <branch name>: deletes the label <branch name>(doesn't delete any commits)
+git remote add origin <github url>: adds a remote address to push commits to, and labels it origin.
+git remote -v : shows information about the remote address
+git push origin master: sends (or commits) the branch master to the url with label "origin"
 

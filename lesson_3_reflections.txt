@@ -48,3 +48,9 @@ master?  What benefits does each approach have?
     The downside is that if you break something you'll have to fix it quickly
     because the team depends on it. That's why you use another branch to experiment
     and be able to try new things without feeling afraid of breaking something.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+	I might want to do that to have a consistent environment on my pc,
+	If i depend on the code of this repository I want to make sure
+	what I got works in my environment.

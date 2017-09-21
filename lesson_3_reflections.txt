@@ -1,1 +1,50 @@
-Content here
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    When I want to be able to make changes to the repository from another computer
+    or collaborate with other developers.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    In case the commits I've got or the branch I'm working on it's not
+    working yet or it's not ready to be in the repository.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    A fork is when you copy a repository but your changes from now on
+    are going to be saved only for you. Meaning I won't be committing to
+    the original repository because I want to do something different with 
+    it.
+    
+    I clone when I want to use the repository as is, and I probably want
+    to update it in te future with the future versions.
+    
+    I would use a branch when I'm testing or doing something new, that I
+    might push to the original repository later.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    The benefit is that whatever I change is on the latest version so I won't
+    have problems if later on I push to the remote location.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    I think without Git it would be hard to keep versions of the code, I would
+    have to save all versions to a different file taking much space.
+    
+    Without github It wouldnt be too bad, cause I could just upload my git
+    repository to a server and I could have the same functionality (I guess)
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    The benefit of working on the main branch is that you're up to date with all
+    commits the team has done, so any changes would tag along easily.
+    
+    The downside is that if you break something you'll have to fix it quickly
+    because the team depends on it. That's why you use another branch to experiment
+    and be able to try new things without feeling afraid of breaking something.

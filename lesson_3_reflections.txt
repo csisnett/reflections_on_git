@@ -10,19 +10,6 @@ automatically stay up-to-date with your remote repository?
     In case the commits I've got or the branch I'm working on it's not
     working yet or it's not ready to be in the repository.
 
-Describe the differences between forks, clones, and branches.  When would you
-use one instead of another?
-
-    A fork is when you copy a repository but your changes from now on
-    are going to be saved only for you. Meaning I won't be committing to
-    the original repository because I want to do something different with 
-    it.
-    
-    I clone when I want to use the repository as is, and I probably want
-    to update it in te future with the future versions.
-    
-    I would use a branch when I'm testing or doing something new, that I
-    might push to the original repository later.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
@@ -54,3 +41,18 @@ Why might you want to always pull changes manually rather than having Git automa
 	I might want to do that to have a consistent environment on my pc,
 	If i depend on the code of this repository I want to make sure
 	what I got works in my environment.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    [A fork is when you copy a repository but your changes from now on
+    are going to be saved only for you.]
+
+    I will use a fork to clone someone else's repository on github.
+    I won't be committing to the original.    
+    
+    I will use clone when I want to use the repository as is, and I may want to
+    make commits in the future.
+    
+    I'll use a branch when I'm testing or doing something new, that I
+    might merge to the master branch later.

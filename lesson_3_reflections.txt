@@ -56,3 +56,8 @@ use one instead of another?
     
     I'll use a branch when I'm testing or doing something new, that I
     might merge to the master branch later.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The benefit is that I can work on my project and then merge changes locally, even
+if I don't have internet. 

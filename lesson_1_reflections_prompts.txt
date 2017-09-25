@@ -91,4 +91,8 @@ git branch -d <branch name>: deletes the label <branch name>(doesn't delete any 
 git remote add origin <github url>: adds a remote address to push commits to, and labels it origin.
 git remote -v : shows information about the remote address
 git push origin master: sends (or commits) the branch master to the url with label "origin"
+git fetch origin: clones the branch origin into a branch locally but it doesn't merge it. (new branch name = origin/master)
+git merge master origin/master: merges the two branches. (remember to have checked out the branch "master")
+git pull origin master: fetches the origin branch and merges it with the master branch.
+or we could say that, git pull origin master = git fetch origin + git merge master origin/master
 
